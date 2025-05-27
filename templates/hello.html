@@ -1,9 +1,6 @@
-{% extends "base.html" %}
-
-{% block title %}
-    Greeting page
-{% endblock title %}
-
+{% extends "base.html" %} {% block title %} Greeting page {% endblock title %}
 {% block body %}
-    <h1>Hello world</h1>
+<h1>Hello world</h1>
+<h2>Name: {{ name }}</h2>
+<h2>Id: {{ id }}</h2>
 {% endblock body %}
