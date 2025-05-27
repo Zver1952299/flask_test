@@ -1,0 +1,9 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.header__icon {
+    height: 42px;
+    width: 42px;
+    margin-right: 12px;
+}
